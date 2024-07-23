@@ -2,6 +2,7 @@
     Calculate and visualize the loss surface.
     Usage example:
     >>  python plot_surface.py --x=-1:1:101 --y=-1:1:101 --model resnet56 --cuda
+    NOTE by PeterC: this script implements mpi4py functions to run functions in parallel using CUDA.
 """
 import argparse
 import copy
